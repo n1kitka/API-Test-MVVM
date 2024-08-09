@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D14FCB102C647EDA00292AA1 /* LivitaSoftwareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB0F2C647EDA00292AA1 /* LivitaSoftwareApp.swift */; };
+		D14FCB122C647EDA00292AA1 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB112C647EDA00292AA1 /* PostListView.swift */; };
+		D14FCB142C647EDC00292AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14FCB132C647EDC00292AA1 /* Assets.xcassets */; };
+		D14FCB172C647EDC00292AA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14FCB162C647EDC00292AA1 /* Preview Assets.xcassets */; };
+		D14FCB1E2C64827000292AA1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB1D2C64827000292AA1 /* PostModel.swift */; };
+		D14FCB202C64837E00292AA1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB1F2C64837E00292AA1 /* WebService.swift */; };
+		D14FCB222C6483B800292AA1 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB212C6483B800292AA1 /* ErrorCases.swift */; };
+		D14FCB242C64841900292AA1 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB232C64841900292AA1 /* PostListViewModel.swift */; };
+		D14FCB2A2C6489A500292AA1 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB292C6489A500292AA1 /* CommentModel.swift */; };
+		D14FCB2C2C648A1A00292AA1 /* CommentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB2B2C648A1A00292AA1 /* CommentListViewModel.swift */; };
+		D14FCB2E2C648A4000292AA1 /* CommentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB2D2C648A4000292AA1 /* CommentListView.swift */; };
+		D14FCB302C64909000292AA1 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB2F2C64909000292AA1 /* LoaderView.swift */; };
+		D14FCB3D2C65F8FA00292AA1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14FCB3C2C65F8FA00292AA1 /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D14FCB0C2C647EDA00292AA1 /* LivitaSoftware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivitaSoftware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14FCB0F2C647EDA00292AA1 /* LivitaSoftwareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivitaSoftwareApp.swift; sourceTree = "<group>"; };
+		D14FCB112C647EDA00292AA1 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		D14FCB132C647EDC00292AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D14FCB162C647EDC00292AA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D14FCB1D2C64827000292AA1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D14FCB1F2C64837E00292AA1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D14FCB212C6483B800292AA1 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		D14FCB232C64841900292AA1 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		D14FCB292C6489A500292AA1 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		D14FCB2B2C648A1A00292AA1 /* CommentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListViewModel.swift; sourceTree = "<group>"; };
+		D14FCB2D2C648A4000292AA1 /* CommentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListView.swift; sourceTree = "<group>"; };
+		D14FCB2F2C64909000292AA1 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		D14FCB3C2C65F8FA00292AA1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14FCB092C647EDA00292AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14FCB032C647EDA00292AA1 = {
+			isa = PBXGroup;
+			children = (
+				D14FCB0E2C647EDA00292AA1 /* LivitaSoftware */,
+				D14FCB0D2C647EDA00292AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14FCB0D2C647EDA00292AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB0C2C647EDA00292AA1 /* LivitaSoftware.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14FCB0E2C647EDA00292AA1 /* LivitaSoftware */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB0F2C647EDA00292AA1 /* LivitaSoftwareApp.swift */,
+				D14FCB132C647EDC00292AA1 /* Assets.xcassets */,
+				D14FCB152C647EDC00292AA1 /* Preview Content */,
+				D14FCB262C64857900292AA1 /* Model */,
+				D14FCB272C64858000292AA1 /* View */,
+				D14FCB282C64858500292AA1 /* ViewModel */,
+				D14FCB252C64855D00292AA1 /* WebService */,
+			);
+			path = LivitaSoftware;
+			sourceTree = "<group>";
+		};
+		D14FCB152C647EDC00292AA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB162C647EDC00292AA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D14FCB252C64855D00292AA1 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB1F2C64837E00292AA1 /* WebService.swift */,
+				D14FCB212C6483B800292AA1 /* ErrorCases.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		D14FCB262C64857900292AA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB1D2C64827000292AA1 /* PostModel.swift */,
+				D14FCB292C6489A500292AA1 /* CommentModel.swift */,
+				D14FCB3C2C65F8FA00292AA1 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D14FCB272C64858000292AA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB112C647EDA00292AA1 /* PostListView.swift */,
+				D14FCB2D2C648A4000292AA1 /* CommentListView.swift */,
+				D14FCB2F2C64909000292AA1 /* LoaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D14FCB282C64858500292AA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D14FCB232C64841900292AA1 /* PostListViewModel.swift */,
+				D14FCB2B2C648A1A00292AA1 /* CommentListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14FCB0B2C647EDA00292AA1 /* LivitaSoftware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14FCB1A2C647EDC00292AA1 /* Build configuration list for PBXNativeTarget "LivitaSoftware" */;
+			buildPhases = (
+				D14FCB082C647EDA00292AA1 /* Sources */,
+				D14FCB092C647EDA00292AA1 /* Frameworks */,
+				D14FCB0A2C647EDA00292AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivitaSoftware;
+			productName = LivitaSoftware;
+			productReference = D14FCB0C2C647EDA00292AA1 /* LivitaSoftware.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14FCB042C647EDA00292AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D14FCB0B2C647EDA00292AA1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D14FCB072C647EDA00292AA1 /* Build configuration list for PBXProject "LivitaSoftware" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14FCB032C647EDA00292AA1;
+			productRefGroup = D14FCB0D2C647EDA00292AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14FCB0B2C647EDA00292AA1 /* LivitaSoftware */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14FCB0A2C647EDA00292AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14FCB172C647EDC00292AA1 /* Preview Assets.xcassets in Resources */,
+				D14FCB142C647EDC00292AA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14FCB082C647EDA00292AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14FCB2C2C648A1A00292AA1 /* CommentListViewModel.swift in Sources */,
+				D14FCB2E2C648A4000292AA1 /* CommentListView.swift in Sources */,
+				D14FCB122C647EDA00292AA1 /* PostListView.swift in Sources */,
+				D14FCB1E2C64827000292AA1 /* PostModel.swift in Sources */,
+				D14FCB242C64841900292AA1 /* PostListViewModel.swift in Sources */,
+				D14FCB222C6483B800292AA1 /* ErrorCases.swift in Sources */,
+				D14FCB2A2C6489A500292AA1 /* CommentModel.swift in Sources */,
+				D14FCB302C64909000292AA1 /* LoaderView.swift in Sources */,
+				D14FCB202C64837E00292AA1 /* WebService.swift in Sources */,
+				D14FCB102C647EDA00292AA1 /* LivitaSoftwareApp.swift in Sources */,
+				D14FCB3D2C65F8FA00292AA1 /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D14FCB182C647EDC00292AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D14FCB192C647EDC00292AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14FCB1B2C647EDC00292AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LivitaSoftware/Preview Content\"";
+				DEVELOPMENT_TEAM = 77FFZ87994;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nikitasavenko.LivitaSoftware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D14FCB1C2C647EDC00292AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LivitaSoftware/Preview Content\"";
+				DEVELOPMENT_TEAM = 77FFZ87994;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nikitasavenko.LivitaSoftware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14FCB072C647EDA00292AA1 /* Build configuration list for PBXProject "LivitaSoftware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14FCB182C647EDC00292AA1 /* Debug */,
+				D14FCB192C647EDC00292AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14FCB1A2C647EDC00292AA1 /* Build configuration list for PBXNativeTarget "LivitaSoftware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14FCB1B2C647EDC00292AA1 /* Debug */,
+				D14FCB1C2C647EDC00292AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14FCB042C647EDA00292AA1 /* Project object */;
+}
